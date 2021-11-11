@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Crash Course</title>
+</head>
+
+<body>
+    <!-- Headings-->
+    <h1>Heading One</h1>
+    <h2>Heading Two</h2>
+    <h3>Heading Three</h3>
+    <h4>Heading Four</h4>
+    <h5>Heading Five</h5>
+    <h6>Heading Six</h6>
+
+    <!--Paragraph-->
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quod cupiditate ipsum ducimus aperiam recusandae
+        expedita fugiat.
+        Porro voluptate sit maiores numquam, <a href="https://google.com" target="_blank">velit ipsam</a> ullam! Hic non
+        nobis fugit consequatur fuga tempore eum aliquid
+        ex temporibus quae,
+        debitis ut veniam molestiae ullam? Recusandae, amet laboriosam officiis id iusto est quibusdam!
+    </p>
+    <p>
+        <strong>Lorem ipsum</strong> dolor sit amet consectetur adipisicing elit. Labore quod cupiditate ipsum ducimus
+        aperiam recusandae
+        expedita fugiat.
+        Porro voluptate sit maiores numquam, velit <em>ipsam ullam! Hic</em> non nobis fugit consequatur fuga tempore
+        eum aliquid
+        ex temporibus quae,
+        debitis ut veniam molestiae ullam? Recusandae, amet laboriosam officiis id iusto est quibusdam!
+    </p>
+
+    <!-- Some Block level elements: <div>, <h1>-<h6>, <p>, <form> -->
+    <!-- Some Inline elements: <span>, <img>, <a> -->
+
+    <!-- Lists -->
+    <!-- Unordered list -->
+    <ul>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+    </ul>
+
+    <!-- Ordered list -->
+    <ol>
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+        <li>List Item 4</li>
+    </ol>
+
+    <!-- Table -->
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>jdoe@mail.com</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>jdoe@mail.com</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>John Doe</td>
+                <td>jdoe@mail.com</td>
+                <td>45</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- Forms-->
+    <form action="process.php" method="POST">
+        <div>
+            <label>First Name:</label>
+            <input placeholder="Enter first name" type="text" name="firstName">
+
+        </div>
+        <br>
+        <div>
+            <label>Last Name:</label>
+            <input placeholder="Enter last name" type="text" name="lastName">
+        </div>
+        <br>
+        <div>
+            <label>Email:</label>
+            <input placeholder="Enter email" type="email" name="email">
+        </div>
+        <br>
+        <div>
+            <label>Message:</label>
+            <textarea placeholder="Write your message" name="message"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="">Gender:</label>
+            <select name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label>Age:</label>
+            <input type="number" name="age" value="30">
+        </div>
+        <br>
+        <div>
+            <label>Birthday</label>
+            <input type="date" name="birthday">
+        </div>
+        <br>
+        <input type="submit" name="submit" value="submit">
+    </form>
+    <br>
+
+    <!-- Button -->
+    <button>Click me</button>
+    <br>
+
+    <!--Image-->
+    <a href="img/sample.jpg">
+        <img src="img/sample.jpg" width="300" height="300" alt="sample">
+    </a>
+
+    <!--Quotations-->
+    <blockquote>Nota bene (/ˈnoʊtə ˈbɛneɪ/, /ˈnoʊtə ˈbɛni/ or /ˈnoʊtə ˈbiːni/; plural form notate bene) is a Latin phrase[1] which first appeared in English writing c. 1711</blockquote>
+    <p> The <abbr title="Australian">Austral.</abbr> fauna is awesome.</p>
+    <p><cite>We are not rich by what we possess but by what we can do without.</cite> - Immanuel Kant.</p>
+</body>
+
+</html>
